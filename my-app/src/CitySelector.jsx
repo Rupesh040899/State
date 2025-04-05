@@ -112,7 +112,7 @@ export default function CitySelector() {
       </div>
       {selectedCity ? (
         <div>
-          You have selected{" "} 
+          You selected {" "}
           <strong>
             {selectedCity}, {selectedStates}, {selectedCountry}
           </strong>
